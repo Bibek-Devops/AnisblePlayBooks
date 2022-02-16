@@ -1,5 +1,5 @@
 ---
-- hosts: web
+- hosts: aws_ec2
   gather_facts: yes
   remote_user: ec2-user
   tasks:
